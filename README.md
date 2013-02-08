@@ -14,7 +14,7 @@ Educational project
    		3. OpenGL
 		3. glm
 		4. assimp
-    		5. Bullet
+    		5.Bullet
 		
 
 	
