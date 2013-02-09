@@ -1,0 +1,28 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+#*.so
+#*.dylib
+
+# Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+
+#Dirs
+Debug/
+Release/
+
+#Project files
+*.sdf
+*.opensdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+PowerPong.v11.suo
+*.vsp
+*.psess
