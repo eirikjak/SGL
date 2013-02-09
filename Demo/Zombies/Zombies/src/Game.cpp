@@ -1,10 +1,10 @@
 #include "Game.h"
 
 
-Game::Game(int argc, char* argv[])
+Game::Game(int argc, char* argv[]):BaseGame()
 {
 
-
+	init("Game",1280,720);
 }
 
 
