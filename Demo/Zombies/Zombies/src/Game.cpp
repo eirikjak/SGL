@@ -10,6 +10,10 @@ Game::Game(int argc, char* argv[]):BaseGame()
 
 void Game::draw() {
 
+	glClearColor(0.4,0.4,0.4,1.0);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	swapBuffers();
 
 }
 void Game::update(double dt){
