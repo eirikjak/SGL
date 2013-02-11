@@ -321,7 +321,6 @@ void StaticModel::render(Pipeline *pipeline){
 
 	glBindVertexArray(vao);
 	glDrawElements(GL_TRIANGLES,this->numIdices,GL_UNSIGNED_SHORT,0);
-	
 	glBindVertexArray(0);
 
 	shader->unbind();

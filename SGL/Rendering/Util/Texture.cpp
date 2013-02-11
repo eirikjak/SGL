@@ -6,7 +6,7 @@ Texture::Texture(GLuint textureHandle)
 
 	this->textureHandle = textureHandle;
 
-	
+	bound = false;
 }
 
 Texture::Texture(ColorFormat format,int width,int height){
@@ -29,7 +29,10 @@ void Texture::setMagFilter(Filter magFilter){
 	this->magFilter = magFilter;
 }
 void Texture::bind(){
+
+	
 	glBindTexture(GL_TEXTURE_2D,textureHandle);
+	
 
 }
 GLuint Texture::getTextureHandle(){

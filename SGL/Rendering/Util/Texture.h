@@ -25,6 +25,7 @@ private:
 	GLuint textureHandle;
 	int width,height;
 	Filter magFilter,minFilter;
+	bool bound;
 };
 
 #endif
