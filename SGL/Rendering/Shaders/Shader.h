@@ -2,7 +2,7 @@
 #define shader_h
 #include <string>
 #include <GL\glew.h>
-#include <GL\freeglut.h>;
+
 #include <GL\GL.h>
 #include <GL\GLU.h>
 #include "shader_util.h"

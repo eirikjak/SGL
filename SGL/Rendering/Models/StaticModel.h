@@ -2,7 +2,7 @@
 #define static_model_h
 
 #include <GL\glew.h>
-#include <GL\freeglut.h>;
+
 #include <GL\GL.h>
 #include <GL\GLU.h>
 

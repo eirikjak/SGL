@@ -8,7 +8,7 @@
 #include <iostream>
 #include <GL\glew.h>
 #include <sstream>
-#include <SOIL.h>
+#include <SOIL\SOIL.h>
 
 namespace ShaderUtil{
 

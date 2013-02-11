@@ -2,7 +2,6 @@
 #define base_game_h
 
 #include <GL\glew.h>
-
 #include <GL\GL.h>
 #include <GL\GLU.h>
 #include <GL\glfw.h>

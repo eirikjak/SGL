@@ -27,3 +27,8 @@ PowerPong.v11.suo
 *.suo
 *.vsp
 *.psess
+
+
+SGLlib/
+Bulletsource/
+bulletFolder/

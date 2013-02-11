@@ -3,7 +3,7 @@
 #define game_engine_buffer_h
 #include "shader_util.h"
 #include <GL\glew.h>
-#include <GL\freeglut.h>
+
 
 class Buffer
 {

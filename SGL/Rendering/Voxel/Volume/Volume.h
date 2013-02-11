@@ -4,7 +4,7 @@
 
 #include <glm\glm.hpp>
 #include <GL\glew.h>
-#include <GL\freeglut.h>;
+
 #include <GL\GL.h>
 #include <GL\GLU.h>
 #include <cstdint>

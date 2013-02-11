@@ -13,6 +13,7 @@ Buffer::Buffer(BufferType bufferType,BufferDrawMode  drawingMode,unsigned int st
 
 void Buffer::init(){
 	_needsInit = false;
+	
 	ShaderUtil::prepareBuffer(_bufferHandle,_bufferType);
 
 }
